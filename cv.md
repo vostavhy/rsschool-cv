@@ -7,7 +7,7 @@
 - linkedin: https://www.linkedin.com/in/mikalai-malysh/
 
 ## About me
-I am a hardworking and high motivated person with a practical approach to problem-solving.
+I am a hardworking and high motivated person with a practical approach to problem-solving. I wrote my first scripts using Python several years ago, and nowadays, I have some experience in backend development (Django, Flask).
 
 I enjoy learning something new and then putting my knowledge into practice, for instance, developing websites and scripts that can improve my work performance.
 
