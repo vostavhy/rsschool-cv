@@ -9,7 +9,7 @@
 ## About me
 I am a hardworking and high motivated person with a practical approach to problem-solving.
 
-I’ve been learning python for the last few years and have some experience in Django and Flask now. I enjoy learning something new and then putting my knowledge into practice, such as developing websites and scripts that can improve my work performance.
+I enjoy learning something new and then putting my knowledge into practice, for instance, developing websites and scripts that can improve my work performance.
 
 ## Skills
 - Python, Django, Flask
