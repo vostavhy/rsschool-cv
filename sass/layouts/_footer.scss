@@ -1,0 +1,14 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__logo {
+    width: 150px;
+    height: 50px;
+    @include media-mobile {
+        width: 105px;
+        height: 35px;
+    }
+}
