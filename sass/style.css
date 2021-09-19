@@ -5,7 +5,7 @@ body {
 html {
   font-size: 10px;
 }
-html body, html h1, html h2, html h3, html h4, html p, html a, html figure, html ul {
+html body, html h1, html h2, html h3, html h4, html p, html a, html figure, html ul, html pre, html code {
   margin: 0;
 }
 html * {

@@ -2,7 +2,10 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>CV</title>
+    <title>CV</title>    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/atom-one-dark.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
     <link rel="stylesheet" href="sass/style.css">
   </head>
   <body>
@@ -56,11 +59,24 @@
         </section>
         <section class="section">
             <h2>Code Example</h2>
-              <code>
-                let OrderPeople = function(people) { <br>
-                  <span class="indent">return</span> people.sort( (man1, man2) => man1.age - man2.age ); <br>
-                }
-              </code>
+              <pre>
+                <code class="javascript">
+                  var WordDictionary = function () {
+                    this.arr = '';
+                  };
+                    
+                  WordDictionary.prototype.addWord = function (word) {
+                      this.arr += ` ${word}`;
+                  };
+                    
+                  WordDictionary.prototype.search = function (word) {
+                      word = word.replace(/\./g, '\\w');   
+                      const regexp = new RegExp(`\\b${word}\\b`, 'i');
+                      if (regexp.test(this.arr)) return true;
+                      return false;
+                  };
+                </code>
+              </pre>                
         </section>     
         <section class="section">
             <h2>Work Experience</h2>
