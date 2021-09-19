@@ -3,12 +3,16 @@
 @import "abstracts/mixins";
 @import "abstracts/placeholders";
 
-//Base
+// Base
 @import "base/base";
 
-//Layouts
+// Components
+@import "components/code";
+@import "components/project";
+@import "components/borders";
+
+// Layouts
 @import "layouts/footer";
 @import "layouts/header";
 @import "layouts/section";
 @import "layouts/wrapper";
-
