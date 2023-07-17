@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/vostavhy/rsschool-cv/issues"
   },
-  "homepage": "https://github.com/vostavhy/rsschool-cv#readme"
+  "homepage": "https://github.com/vostavhy/rsschool-cv#readme",
+  "dependencies": {
+    "sass": "^1.63.6"
+  }
 }
