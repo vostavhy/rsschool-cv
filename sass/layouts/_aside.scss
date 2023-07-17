@@ -2,6 +2,10 @@
   width: $aside-width;
   background-color: $primary-color;
   color: $text-additional-color;
+
+  @include media-mobile {
+    width: 100%;
+  }
 }
 
 .aside__wrapper {

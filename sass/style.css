@@ -46,6 +46,14 @@ h2 {
   font-style: normal;
   line-height: 3rem;
 }
+@media (max-width: 768px) {
+  h2 {
+    font-size: 2rem;
+    font-weight: semi-bold;
+    font-style: normal;
+    line-height: 2.5rem;
+  }
+}
 
 .list {
   display: flex;
@@ -77,15 +85,9 @@ h2 {
   padding: 30px 90px;
   background-color: #212026;
 }
-
-.footer__logo {
-  width: 150px;
-  height: 50px;
-}
-@media (max-width: 770px) {
-  .footer__logo {
-    width: 105px;
-    height: 35px;
+@media (max-width: 768px) {
+  .footer {
+    padding: 30px;
   }
 }
 
@@ -97,10 +99,21 @@ h2 {
   display: flex;
   align-items: center;
 }
+@media (max-width: 768px) {
+  .header__wrapper {
+    background-color: #212026;
+    flex-direction: column;
+  }
+}
 
 .header__logo {
   width: 35%;
   background-color: #212026;
+}
+@media (max-width: 768px) {
+  .header__logo {
+    align-self: flex-start;
+  }
 }
 
 .header__avatar {
@@ -111,21 +124,60 @@ h2 {
   width: 65%;
   background-color: #fecb01;
 }
+@media (max-width: 768px) {
+  .header__info {
+    width: 100%;
+  }
+}
 
 .header__description {
   padding: 70px;
   text-transform: uppercase;
 }
+@media (max-width: 1200px) {
+  .header__description {
+    padding: 60px;
+  }
+}
+@media (max-width: 768px) {
+  .header__description {
+    padding: 40px;
+  }
+}
 
 .header__name_bold {
   font-weight: bold;
 }
+@media (max-width: 1200px) {
+  .header__name {
+    font-size: 4rem;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 5rem;
+  }
+}
+@media (max-width: 768px) {
+  .header__name {
+    font-size: 2.5rem;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 3.5rem;
+  }
+}
 
 .header__title {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: normal;
   font-style: normal;
   line-height: 3.5rem;
+}
+@media (max-width: 1200px) {
+  .header__title {
+    font-size: 2rem;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 2.5rem;
+  }
 }
 
 .section {
@@ -152,16 +204,15 @@ h2 {
     margin: 20px 20px;
   }
 }
-@media (max-width: 770px) {
-  .wrapper {
-    margin: 20px 20px;
-    padding: 10px;
-  }
-}
 
 .content-wrapper {
   display: flex;
   justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .content-wrapper {
+    flex-direction: column;
+  }
 }
 
 .main {
@@ -170,11 +221,28 @@ h2 {
   width: 65%;
   padding: 0 80px;
 }
+@media (max-width: 1200px) {
+  .main {
+    top: 0px;
+    padding: 0 20px 40px;
+  }
+}
+@media (max-width: 768px) {
+  .main {
+    top: 40px;
+    width: 100%;
+  }
+}
 
 .aside {
   width: 35%;
   background-color: #212026;
   color: #b1b0b6;
+}
+@media (max-width: 768px) {
+  .aside {
+    width: 100%;
+  }
 }
 
 .aside__wrapper {

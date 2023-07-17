@@ -1,11 +1,20 @@
 .header__wrapper {
   display: flex;
   align-items: center;
+
+  @include media-mobile {
+    background-color: $primary-color;
+    flex-direction: column;
+  }
 }
 
 .header__logo {
   width: $aside-width;
   background-color: $primary-color;
+
+  @include media-mobile {
+    align-self: flex-start;
+  }
 }
 
 .header__avatar {
@@ -15,19 +24,43 @@
 .header__info {
   width: $main-width;
   background-color: $secondary-color;
+
+  @include media-mobile {
+    width: 100%;
+  }
 }
 
 .header__description {
   padding: 70px;
   text-transform: uppercase;
+
+  @include media-tablet {
+    padding: 60px;
+  }
+
+  @include media-mobile {
+    padding: 40px;
+  }
 }
 
 .header__name {
   &_bold {
     font-weight: bold;
   }
+
+  @include media-tablet {
+    @include font($size: 4rem, $height: 5rem);
+  }
+
+  @include media-mobile {
+    @include font($size: 2.5rem, $height: 3.5rem);
+  }
 }
 
 .header__title {
-  @include font($size: 3rem, $height: 3.5rem);
+  @include font($size: 2.5rem, $height: 3.5rem);
+
+  @include media-tablet {
+    @include font($size: 2rem, $height: 2.5rem);
+  }
 }

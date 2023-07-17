@@ -3,4 +3,14 @@
   top: -60px;
   width: $main-width;
   padding: 0 80px;
+
+  @include media-tablet {
+    top: 0px;
+    padding: 0 20px 40px;
+  }
+
+  @include media-mobile {
+    top: 40px;
+    width: 100%;
+  }
 }
