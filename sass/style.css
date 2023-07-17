@@ -5,7 +5,17 @@ body {
 html {
   font-size: 10px;
 }
-html body, html h1, html h2, html h3, html h4, html p, html a, html figure, html ul, html pre, html code {
+html body,
+html h1,
+html h2,
+html h3,
+html h4,
+html p,
+html a,
+html figure,
+html ul,
+html pre,
+html code {
   margin: 0;
 }
 html * {
@@ -31,7 +41,10 @@ body {
 }
 
 h1 {
-  padding-top: 20px;
+  font-size: 6rem;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 8rem;
 }
 @media (max-width: 770px) {
   h1 {
@@ -43,9 +56,6 @@ h1 {
   }
 }
 
-h2 {
-  padding-bottom: 10px;
-}
 @media (max-width: 770px) {
   h2 {
     padding-bottom: 3px;
@@ -86,19 +96,45 @@ h2 {
 
 .header {
   padding-bottom: 20px;
-  border-bottom: 1px solid #dee0e2;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  width: 35%;
+  background-color: #272c47;
 }
 
 .header__avatar {
+  display: block;
+  width: 70%;
+  margin: 30px auto;
+  border: 8px solid #e6ba0c;
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
 }
-@media (max-width: 770px) {
-  .header__avatar {
-    width: 70px;
-    height: 70px;
-  }
+
+.header__info {
+  width: 65%;
+  background-color: #e6ba0c;
+}
+
+.header__description {
+  padding: 70px;
+  text-transform: uppercase;
+}
+
+.header__name_bold {
+  font-weight: bold;
+}
+
+.header__title {
+  font-size: 3rem;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 3.5rem;
 }
 
 .section {
@@ -111,12 +147,11 @@ h2 {
 }
 
 .wrapper {
-  max-width: 1000px;
-  margin: 20px auto;
-  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
   border: 1px solid #dee0e2;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .wrapper {
     margin: 20px 20px;
   }

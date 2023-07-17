@@ -1,18 +1,19 @@
 // Abstracts
-@import "abstracts/constants";
-@import "abstracts/mixins";
-@import "abstracts/placeholders";
+@import 'abstracts/constants';
+@import 'abstracts/mixins';
+@import 'abstracts/placeholders';
+@import 'abstracts/colors';
 
 // Base
-@import "base/base";
+@import 'base/base';
 
 // Components
-@import "components/code";
-@import "components/project";
-@import "components/borders";
+@import 'components/code';
+@import 'components/project';
+@import 'components/borders';
 
 // Layouts
-@import "layouts/footer";
-@import "layouts/header";
-@import "layouts/section";
-@import "layouts/wrapper";
+@import 'layouts/footer';
+@import 'layouts/header';
+@import 'layouts/section';
+@import 'layouts/wrapper';

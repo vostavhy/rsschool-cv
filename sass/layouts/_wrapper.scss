@@ -1,15 +1,14 @@
 .wrapper {
-    max-width: $content-width;
-    margin: 20px auto;
-    padding: 20px;
-    border: 1px solid #dee0e2;
+  max-width: $content-width;
+  margin: auto;
+  border: 1px solid #dee0e2;
 
-    @include media-laptop {
-        margin: 20px 20px;
-    }
+  @include media-laptop {
+    margin: 20px 20px;
+  }
 
-    @include media-mobile {
-        margin: 20px 20px;
-        padding: 10px;
-    }
+  @include media-mobile {
+    margin: 20px 20px;
+    padding: 10px;
+  }
 }
