@@ -74,7 +74,8 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 20px;
+  padding: 30px 90px;
+  background-color: #212026;
 }
 
 .footer__logo {
@@ -86,6 +87,10 @@ h2 {
     width: 105px;
     height: 35px;
   }
+}
+
+.time {
+  color: #b1b0b6;
 }
 
 .header__wrapper {
