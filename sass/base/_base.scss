@@ -1,38 +1,38 @@
 html {
-    body, h1, h2, h3, h4, p, a, figure, ul, pre, code {
-        margin: 0;
-    }
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  p,
+  a,
+  figure,
+  ul,
+  pre,
+  code {
+    margin: 0;
+  }
 
-    * {
-        box-sizing: border-box;
-    }
-    
-    font-size: 10px;
+  * {
+    box-sizing: border-box;
+  }
+
+  font-size: 10px;
 }
 
 body {
-    @extend %font-prime;
-    @include font();
-    @include media-mobile {
-        @include font($size: 1rem, $height: 1.5rem);
-        ul {
-            padding-left: 20px;
-        }
-    }
+  @extend %font-prime;
+  @include font($size: 1.8rem, $weight: normal, $height: 2.4rem);
 }
 
 h1 {
-    padding-top: 20px;
-    @include media-mobile {
-        padding-top: 10px;
-        @include font($size: 2.3rem, $weight:bold, $height: 2.5rem);
-    }
+  @include font($size: 6rem, $weight: normal, $height: 8rem);
 }
 
 h2 {
-    padding-bottom: 10px;    
-    @include media-mobile {
-        padding-bottom: 3px; 
-        @include font($size: 1.3rem, $weight:bold, $height: 1.5rem);
-    }
+  @include font($size: 2.5rem, $weight: semi-bold, $height: 3rem);
+
+  @include media-mobile {
+    @include font($size: 2rem, $weight: semi-bold, $height: 2.5rem);
+  }
 }

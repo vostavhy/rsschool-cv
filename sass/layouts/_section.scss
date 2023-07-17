@@ -1,8 +1,14 @@
 .section {
-  padding: 20px 0;
-  border-bottom: 1px solid #dee0e2;
+  padding-bottom: 60px;
 }
 
-.contacts a {
-    text-decoration: none;
+.section__header {
+  padding-bottom: 15px;
+  text-transform: uppercase;
+  border-bottom: 4px solid $line-dark-color;
 }
+
+.section__text {
+  padding-top: 15px;
+}
+
