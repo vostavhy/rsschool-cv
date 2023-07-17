@@ -1,27 +1,19 @@
-.header {
-  padding-bottom: 20px;
-}
-
 .header__wrapper {
   display: flex;
   align-items: center;
 }
 
 .header__logo {
-  width: 35%;
+  width: $aside-width;
   background-color: $primary-color;
 }
 
 .header__avatar {
-  display: block;
-  width: 70%;
-  margin: 30px auto;
-  border: 8px solid $secondary-color;
-  border-radius: 50%;
+  width: 100%;
 }
 
 .header__info {
-  width: 65%;
+  width: $main-width;
   background-color: $secondary-color;
 }
 

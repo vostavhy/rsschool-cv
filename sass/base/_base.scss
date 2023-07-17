@@ -23,25 +23,12 @@ html {
 body {
   @extend %font-prime;
   @include font();
-  @include media-mobile {
-    @include font($size: 1rem, $height: 1.5rem);
-    ul {
-      padding-left: 20px;
-    }
-  }
 }
 
 h1 {
   @include font($size: 6rem, $weight: normal, $height: 8rem);
-  @include media-mobile {
-    padding-top: 10px;
-    @include font($size: 2.3rem, $weight: bold, $height: 2.5rem);
-  }
 }
 
 h2 {
-  @include media-mobile {
-    padding-bottom: 3px;
-    @include font($size: 1.3rem, $weight: bold, $height: 1.5rem);
-  }
+  @include font($size: 2.5rem, $weight: semi-bold, $height: 3rem);
 }
