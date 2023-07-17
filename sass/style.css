@@ -183,6 +183,11 @@ h2 {
 .section {
   padding-bottom: 60px;
 }
+@media (max-width: 768px) {
+  .section {
+    padding-bottom: 40px;
+  }
+}
 
 .section__header {
   padding-bottom: 15px;
@@ -247,6 +252,16 @@ h2 {
 
 .aside__wrapper {
   padding: 60px 0 0 60px;
+}
+@media (max-width: 1200px) {
+  .aside__wrapper {
+    padding: 40px 0 0 30px;
+  }
+}
+@media (max-width: 768px) {
+  .aside__wrapper {
+    padding: 30px 20px;
+  }
 }
 
 .aside__header {
