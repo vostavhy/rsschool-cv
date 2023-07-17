@@ -1,15 +1,11 @@
 .aside {
   width: $aside-width;
   background-color: $primary-color;
-  color: $light-color;
+  color: $text-additional-color;
 }
 
 .aside__wrapper {
   padding: 60px 0 0 60px;
-}
-
-.aside__section {
-  padding-bottom: 60px;
 }
 
 .aside__header {
@@ -41,7 +37,7 @@
 }
 
 .aside__text {
-  @include font($size: 1.4rem, $weight: bold, $height: 2.4rem);
+  @include font($size: 1.5rem, $weight: bold, $height: 2.4rem);
   &_marked {
     padding-left: 90px;
   }
@@ -49,7 +45,7 @@
 
 .aside__link {
   @extend %transition;
-  color: $light-color;
+  color: $text-additional-color;
   text-decoration: none;
   &:hover {
     color: $secondary-color;

@@ -22,7 +22,7 @@ html {
 
 body {
   @extend %font-prime;
-  @include font();
+  @include font($size: 1.8rem, $weight: normal, $height: 2.4rem);
 }
 
 h1 {

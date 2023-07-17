@@ -1,8 +1,14 @@
 .section {
+  padding-bottom: 60px;
 }
 
 .section__header {
   padding-bottom: 15px;
   text-transform: uppercase;
-  border-bottom: 3px solid $line-dark-color;
+  border-bottom: 4px solid $line-dark-color;
 }
+
+.section__text {
+  padding-top: 15px;
+}
+

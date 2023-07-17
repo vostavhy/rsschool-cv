@@ -5,10 +5,6 @@
     <title>Mikalai Malysh CV</title>
     <link
       rel="stylesheet"
-      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/atom-one-dark.min.css" />
-
-    <link
-      rel="stylesheet"
       href="sass/style.css" />
   </head>
   <body>
@@ -154,121 +150,124 @@
         </aside>
 
         <main class="main">
-          <section class="section contacts">
-            <h2>Contact information</h2>
-            <ul>
-              <li>location: Minsk</li>
-              <li>telegram: <a href="tg://resolve?domain=Vostavhy">@Vostavhy</a></li>
-              <li>phone: <a href="tel:+375(29)7796553">+375(29)7796553</a></li>
-              <li>linkedin: <a href="https://www.linkedin.com/in/mikalai-malysh/">mikalai-malysh</a></li>
-              <li>email: <a href="mailto:vostavhy@gmail.com">vostavhy@gmail.com</a></li>
-            </ul>
-          </section>
           <section class="section">
-            <h2>About me</h2>
-            <p>
-              I am a hardworking and high motivated person with a practical approach to problem-solving. I wrote my
-              first scripts using Python several years ago, and nowadays, I have some experience in backend development
-              (Django, Flask).
-            </p>
-            <p>
-              I enjoy learning something new and then putting my knowledge into practice, for instance, creating
-              websites and scripts that can improve my work performance.
+            <h2 class="section__header">About me</h2>
+            <p class="section__text">
+              I am a hardworking and high motivated person with a practical approach to problem-solving. I have some
+              experience in backend development (Express, Nest) and also interested in frontend development (React).
             </p>
           </section>
+
           <section class="section">
-            <h2>Skills</h2>
-            <ul>
-              <li>Python, Django, Flask</li>
-              <li>Git</li>
-              <li>REST Api</li>
-              <li>PostgreSQL, SQL Alchemy</li>
-              <li>Docker</li>
-              <li>HTML, CSS, Javascript</li>
+            <h2 class="section__header">Skills</h2>
+            <ul class="list">
+              <li class="list__item">Javascript (ES6)</li>
+              <li class="list__item">React</li>
+              <li class="list__item">Redux</li>
+              <li class="list__item">HTML 5</li>
+              <li class="list__item">CSS/SCSS</li>
+              <li class="list__item">Git/GitHub</li>
+              <li class="list__item">Node.js</li>
+              <li class="list__item">Express.js</li>
+              <li class="list__item">REST Api</li>
+              <li class="list__item">PostgreSQL</li>
+              <li class="list__item">MongoDB</li>
+              <li class="list__item">Docker</li>
             </ul>
           </section>
+
           <section class="section">
-            <h2>Code Example</h2>
-            <pre class="code">
-                <code class="javascript">
-                  var WordDictionary = function () {
-                    this.arr = '';
-                  };
-                    
-                  WordDictionary.prototype.addWord = function (word) {
-                      this.arr += ` ${word}`;
-                  };
-                    
-                  WordDictionary.prototype.search = function (word) {
-                      word = word.replace(/\./g, '\\w');   
-                      const regexp = new RegExp(`\\b${word}\\b`, 'i');
-                      if (regexp.test(this.arr)) return true;
-                      return false;
-                  };
-                </code>
-              </pre>
+            <h2 class="section__header">Work Experience</h2>
+            <p class="section__text">2013 - today (10 years): tech support and tools developer at Wargaming.net</p>
           </section>
-          <section class="section projects">
-            <h2>Recent projects</h2>
-            <div class="project-container border">
-              <h3>Photo filters</h3>
-              <h4>HTML5, CSS, Javascript</h4>
-              <p>Photo filters with following possible customization: blur, brightness, contrast, size and etc.</p>
-              <a
-                href="https://rolling-scopes-school.github.io/vostavhy-JSFEPRESCHOOL/photofilter/"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><img
-                  class="project-container__image"
-                  src="images/project-filters.png"
-                  alt=""
-              /></a>
-            </div>
-            <div class="project-container border">
-              <h3>Vertical slider</h3>
-              <h4>HTML5, CSS, Javascript</h4>
-              <p>Endless slider using pure JS.</p>
-              <a
-                href="https://rolling-scopes-school.github.io/vostavhy-JSFEPRESCHOOL/vertical-slider/"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><img
-                  class="project-container__image"
-                  src="images/project-slider.png"
-                  alt=""
-              /></a>
-            </div>
-            <div class="project-container">
-              <h3>Museum</h3>
-              <h4>HTML5, CSS, Javascript</h4>
-              <p>Welcome to the Louvre.</p>
-              <a
-                href="https://rolling-scopes-school.github.io/vostavhy-JSFEPRESCHOOL/museum/"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><img
-                  class="project-container__image"
-                  src="images/project-museum.png"
-                  alt=""
-              /></a>
-            </div>
-          </section>
+
           <section class="section">
-            <h2>Work Experience</h2>
-            <p>2013 - today (8 years): tech support specialist at Wargaming.net</p>
-          </section>
-          <section class="section">
-            <h2>Education</h2>
-            <ul>
-              <li>2007 - 2012: Belarusian State Economic University. Finance and banking.</li>
-              <li>2016: Coursera Course Certificates. Data Structures and Performance.</li>
-              <li>2016: Coursera Course Certificates. Algorithmic Toolbox.</li>
-              <li>2019-2020: Yandex Praktikum. Back-End Python Developer Professional Training Course.</li>
+            <h2 class="section__header">Recent projects</h2>
+            <ul class="list">
+              <li class="list__item list__item_single">
+                <h2>Upgrade your skills landing page</h2>
+                <h3>Tailwind, Vanilla JS (ES6+), Vite</h3>
+                <p>
+                  Source:
+                  <a
+                    class="list__link"
+                    href="https://github.com/vostavhy/landing-tailwind-skills"
+                    >https://github.com/vostavhy/landing-tailwind-skills</a
+                  >
+                </p>
+                <p>
+                  Deployment:
+                  <a
+                    class="list__link"
+                    href="https://vostavhy.github.io/landing-tailwind-skills/"
+                    >landing-tailwind-skills</a
+                  >
+                </p>
+              </li>
+
+              <li class="list__item list__item_single">
+                <h2>Design thinking landing page</h2>
+                <h3>SCSS/SASS, Vanilla JS (ES6+), Vite</h3>
+                <p>
+                  Source:
+                  <a
+                    class="list__link"
+                    href="https://github.com/vostavhy/landing-design-thinking"
+                    >https://github.com/vostavhy/landing-design-thinking</a
+                  >
+                </p>
+                <p>
+                  Deployment:
+                  <a
+                    class="list__link"
+                    href="https://rolling-scopes-school.github.io/vostavhy-REACT2022Q1/"
+                    >vostavhy-REACT2022Q1</a
+                  >
+                </p>
+              </li>
+
+              <li class="list__item list__item_single">
+                <h2>Searching Characters</h2>
+                <h3>REST Api, React, Typescript</h3>
+                <p>You can search characters from popular cartoon "Rick and Morty"</p>
+                <p>
+                  Deployment:
+                  <a
+                    class="list__link"
+                    href="https://rolling-scopes-school.github.io/vostavhy-REACT2022Q1/"
+                    >vostavhy-REACT2022Q1</a
+                  >
+                </p>
+              </li>
+
+              <li class="list__item list__item_single">
+                <h2>Photo filters</h2>
+                <h3>HTML5, CSS, Javascript</h3>
+                <p>Several filters for changing photo online</p>
+                <p>
+                  Deployment:
+                  <a
+                    class="list__link"
+                    href="https://rolling-scopes-school.github.io/vostavhy-JSFEPRESCHOOL/photofilter/"
+                    >vostavhy-JSFEPRESCHOOL/photofilter</a
+                  >
+                </p>
+              </li>
+
+              <li class="list__item list__item_single">
+                <h2>Vertical slider</h2>
+                <h3>HTML5, CSS, Javascript</h3>
+                <p>Endless slider using pure JS.</p>
+                <p>
+                  Deployment:
+                  <a
+                    class="list__link"
+                    href="https://rolling-scopes-school.github.io/vostavhy-JSFEPRESCHOOL/vertical-slider/"
+                    >vostavhy-JSFEPRESCHOOL/vertical-slider</a
+                  >
+                </p>
+              </li>
             </ul>
-          </section>
-          <section class="section">
-            <h2>English level</h2>
-            <p>B2</p>
           </section>
         </main>
       </div>
@@ -284,10 +283,6 @@
         /></a>
       </footer>
     </div>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
     <script src="script.js"></script>
-    <script>
-      hljs.initHighlightingOnLoad();
-    </script>
   </body>
 </html>
