@@ -1,0 +1,18 @@
+.wrapper {
+  max-width: $content-width;
+  margin: auto;
+  border: 1px solid #dee0e2;
+
+  @include media-laptop {
+    margin: 20px 20px;
+  }
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  @include media-mobile {
+    flex-direction: column;
+  }
+}

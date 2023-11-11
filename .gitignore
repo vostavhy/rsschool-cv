@@ -1,0 +1,7 @@
+# Для поддержания единообразия в коде
+.editorconfig
+.htmlhintrc
+.stylelintrc
+.vscode
+
+node_modules/

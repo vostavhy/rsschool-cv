@@ -1,0 +1,23 @@
+{
+  "name": "rsschool-cv",
+  "version": "1.0.0",
+  "description": "[markdown-cv](https://vostavhy.github.io/rsschool-cv/cv)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "style": "sass --watch sass/style.scss sass/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vostavhy/rsschool-cv.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vostavhy/rsschool-cv/issues"
+  },
+  "homepage": "https://github.com/vostavhy/rsschool-cv#readme",
+  "dependencies": {
+    "sass": "^1.63.6"
+  }
+}
