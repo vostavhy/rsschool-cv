@@ -1,0 +1,17 @@
+.section {
+  padding-bottom: 60px;
+
+  @include media-mobile {
+    padding-bottom: 40px;
+  }
+}
+
+.section__header {
+  padding-bottom: 15px;
+  text-transform: uppercase;
+  border-bottom: 4px solid $line-dark-color;
+}
+
+.section__text {
+  padding-top: 15px;
+}
